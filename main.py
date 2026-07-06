@@ -58,8 +58,45 @@ def handle_responses(text: str) -> str:
     if 'koy koy koy athiji' in processed:
         return 'mnew lula🙄?'
 
+    if 'leul' in processed:
+        return 'yes, whats up?'
+
+    if 'hi leul' in processed:
+        return 'hi how are you?'
+
+    if 'sma' in processed or 'smi' in processed:
+        return 'weye🙄?'
+
+    if 'eski yehone mela weye beygn' in processed:
+        return 'ney be west enawra🤑'
+
+    if 'haye' in processed:
+        return 'haye lula🐦‍🔥'
+
     if 'beka tewew hid' in processed:
         return 'enex beka banchi bet techawetshbgn😒'
+
+    if 'aba kejerbash ynshokashokubshal' in processed:
+        return 'aw mn jemerk demo🙄?'
+
+    if 'fsabachew bomboclat' in processed:
+        return '😶 ere lula mnshet if you say let me bit'
+
+    if 'ok go ahead eski 1 werejibn' in processed:
+        return 'eshi koy lasb🤦‍♂️'
+
+    if 'haye' in processed:
+        return 'aba nockeya nesh ende?'
+
+    if 'malet' in processed:
+        return 'tek tek largsh💀'
+
+    if 'ere lash bey bey chaw🤣' in processed:
+        return 'ene eko alasb bel chaw👻'
+
+    if 'eski tsede arif pick up lineoch lkekibn' in processed:
+        return 'eshi kalk 1 ema abeba nesh ende what lksemsh 2, emuye shiro nesh ende what zegashign 3 traffic nesh ende what lben ketashw to get more please subscribe💁‍♂️'
+
 
     if 'sorry beka eyehedsh' in processed:
         return 'bye man kantega yderkal 🥴'
