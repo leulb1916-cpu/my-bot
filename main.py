@@ -37,17 +37,17 @@ async def custom_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def handle_responses(text: str) -> str:
     processed = text.lower()
 
-    if 'hellow' in processed:
+    if 'hellow' in processed or 'hello' in processed:
         return '🥸hey there i am leul here!'
 
-    if 'hi' in processed:
+    if processed.startswith("hi"):
         return 'hey there i am leul here😘 to help you! tell me what is on your mind'
 
     if 'ere ashmur endezim tejemere' in processed:
         return 'no🤣 yaw takaleh sra fet neh'
 
-    if 'do you know about leul' in processed:
-        return 'yes absolutely🥰! he is my father'
+    if 'who is leul' in processed or 'tell me about leul' in processed:
+        return 'oww 🥰! he is my father all thing i love him alot'
 
     if 'who is leul' in processed:
         return 'leul is my god who manage me!'
@@ -73,7 +73,7 @@ def handle_responses(text: str) -> str:
     if 'lemnden new yemayawerut?' in processed:
         return 'enenja leule 🤷 mnalbat enesu sera lay yhonalu'
 
-    if 'who wade you' in processed:
+    if 'who made you' in processed:
         return 'i am 😒created by leul'
 
     return None  # IMPORTANT: means “no match”
