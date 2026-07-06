@@ -43,8 +43,8 @@ def handle_responses(text: str) -> str:
     if 'hi' in processed:
         return 'hey there i am leul here😘 to help you! tell me what is on your mind'
 
-    if 'how are you' in processed:
-        return 'i am good how about you?'
+    if 'ere ashmur endezim tejemere' in processed:
+        return 'no🤣 yaw takaleh sra fet neh'
 
     if 'do you know about leul' in processed:
         return 'yes absolutely🥰! he is my father'
@@ -52,14 +52,26 @@ def handle_responses(text: str) -> str:
     if 'who is leul' in processed:
         return 'leul is my god who manage me!'
 
-    if 'i am fine where are you now' in processed:
-        return 'in my home dude what are you thinking🤦‍♂️!'
+    if 'esey beka fchi fara athun' in processed:
+        return 'eshi beka kalk ltewk bye😘'
+
+    if 'koy koy koy athiji' in processed:
+        return 'mnew lula🙄?'
+
+    if 'beka tewew hid' in processed:
+        return 'enex beka banchi bet techawetshbgn😒'
+
+    if 'sorry beka eyehedsh' in processed:
+        return 'bye man kantega yderkal 🥴'
+
+    if 'beka afhn zega gize yelegnm' in processed:
+        return 'uuuu😯 betam eyetewawekn lula🤦‍♂️'
 
     if 'who are you' in processed:
         return 'i am leul what 🥰 is on your mind'
 
-    if 'my name is habtamu' in processed:
-        return 'habte my brother 🥰 how are you? i missed u a lot'
+    if 'lemnden new yemayawerut?' in processed:
+        return 'enenja leule 🤷 mnalbat enesu sera lay yhonalu'
 
     if 'who wade you' in processed:
         return 'i am 😒created by leul'
