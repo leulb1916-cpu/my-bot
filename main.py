@@ -70,7 +70,7 @@ def handle_responses(text: str) -> str:
     if 'eski yehone mela weye beygn' in processed:
         return 'ney be west enawra🤑'
 
-    if processed.startswith("haye"):
+    if processed.strip() == "haye":
         return 'haye lula🐦‍🔥'
 
     if 'beka tewew hid' in processed:
